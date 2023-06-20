@@ -6,15 +6,11 @@ Specifically, I built a model that more accurately predicts the unit sales for t
 ## Dataset
 The training data includes dates, store, and product information, whether that item was being promoted, as well as the sales numbers. Additional files include supplementary information that may be useful in building your models
 
-File Descriptions and Data Field Information
-
-train.csv
-
-The training data, comprising time series of features store_nbr, family, and onpromotion as well as the target sales.
-
-store_nbr identifies the store at which the products are sold.
-
-family identifies the type of product sold.
+|File| Data Desription|
+|---------------------------|---------------------------------------------------|
+|train.csv|The training data, comprising time series of features store_nbr, family, and onpromotion as well as the target sales|
+|store_nbr |identifies the store at which the products are sold.
+|family |identifies the type of product sold.
 
 sales gives the total sales for a product family at a particular store at a given date. Fractional values are possible since products can be sold in fractional units (1.5 kg of cheese, for instance, as opposed to 1 bag of chips).
 
@@ -47,7 +43,7 @@ Holidays and Events, with metadata
 
 Data Preparation
 
-Hypothesis & Questions
+## Hypothesis & Questions
 
 The questions below are to be answered. Do note that, you are free to draw more hypothesis from the data.
 
