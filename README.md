@@ -22,9 +22,6 @@ The dates in the test data are for the 15 days after the last date in the traini
 |oil.csv|
 |Daily oil price|includes values during both the train and test data timeframes. (Ecuador is an oil-dependent country and its economical health is highly vulnerable to shocks in oil prices.)
 |holidays_events.csv|Holidays and Events, with metadata
-
-Data Preparation
-
 ## Hypothesis & Questions
 
 The questions below are to be answered. Do note that, you are free to draw more hypothesis from the data.
